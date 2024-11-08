@@ -1,0 +1,940 @@
+Assign Site 1: TITESTTEMP = "Temp_25_Degrees_C"
+Assign Site 2: TITESTTEMP = "Temp_25_Degrees_C"
+Assign Site 3: TITESTTEMP = "Temp_25_Degrees_C"
+Assign Site 4: TITESTTEMP = "Temp_25_Degrees_C"
+Assign Site 5: TITESTTEMP = "Temp_25_Degrees_C"
+Assign Site 6: TITESTTEMP = "Temp_25_Degrees_C"
+Assign Site 7: TITESTTEMP = "Temp_25_Degrees_C"
+Assign Site 8: TITESTTEMP = "Temp_25_Degrees_C"
+Assign Site 1: TITESTTEMP_valid = "Temp_25_Degrees_C"
+Assign Site 2: TITESTTEMP_valid = "Temp_25_Degrees_C"
+Assign Site 3: TITESTTEMP_valid = "Temp_25_Degrees_C"
+Assign Site 4: TITESTTEMP_valid = "Temp_25_Degrees_C"
+Assign Site 5: TITESTTEMP_valid = "Temp_25_Degrees_C"
+Assign Site 6: TITESTTEMP_valid = "Temp_25_Degrees_C"
+Assign Site 7: TITESTTEMP_valid = "Temp_25_Degrees_C"
+Assign Site 8: TITESTTEMP_valid = "Temp_25_Degrees_C"
+Assign Site 1: TITESTTYPE = "FT"
+Assign Site 2: TITESTTYPE = "FT"
+Assign Site 3: TITESTTYPE = "FT"
+Assign Site 4: TITESTTYPE = "FT"
+Assign Site 5: TITESTTYPE = "FT"
+Assign Site 6: TITESTTYPE = "FT"
+Assign Site 7: TITESTTYPE = "FT"
+Assign Site 8: TITESTTYPE = "FT"
+Assign Site 1: TITESTTYPE_valid = "FT"
+Assign Site 2: TITESTTYPE_valid = "FT"
+Assign Site 3: TITESTTYPE_valid = "FT"
+Assign Site 4: TITESTTYPE_valid = "FT"
+Assign Site 5: TITESTTYPE_valid = "FT"
+Assign Site 6: TITESTTYPE_valid = "FT"
+Assign Site 7: TITESTTYPE_valid = "FT"
+Assign Site 8: TITESTTYPE_valid = "FT"
+Assign Site 1: TMLimit_TestMode = "FT_Temp_25_Degrees_C"
+Assign Site 2: TMLimit_TestMode = "FT_Temp_25_Degrees_C"
+Assign Site 3: TMLimit_TestMode = "FT_Temp_25_Degrees_C"
+Assign Site 4: TMLimit_TestMode = "FT_Temp_25_Degrees_C"
+Assign Site 5: TMLimit_TestMode = "FT_Temp_25_Degrees_C"
+Assign Site 6: TMLimit_TestMode = "FT_Temp_25_Degrees_C"
+Assign Site 7: TMLimit_TestMode = "FT_Temp_25_Degrees_C"
+Assign Site 8: TMLimit_TestMode = "FT_Temp_25_Degrees_C"
+Assign Site 1: USP_BRCONTROL = "main"
+Assign Site 2: USP_BRCONTROL = "main"
+Assign Site 3: USP_BRCONTROL = "main"
+Assign Site 4: USP_BRCONTROL = "main"
+Assign Site 5: USP_BRCONTROL = "main"
+Assign Site 6: USP_BRCONTROL = "main"
+Assign Site 7: USP_BRCONTROL = "main"
+Assign Site 8: USP_BRCONTROL = "main"
+Assign Site 1: USP_DIBDIAG_CHCK = ""
+Assign Site 2: USP_DIBDIAG_CHCK = ""
+Assign Site 3: USP_DIBDIAG_CHCK = ""
+Assign Site 4: USP_DIBDIAG_CHCK = ""
+Assign Site 5: USP_DIBDIAG_CHCK = ""
+Assign Site 6: USP_DIBDIAG_CHCK = ""
+Assign Site 7: USP_DIBDIAG_CHCK = ""
+Assign Site 8: USP_DIBDIAG_CHCK = ""
+Assign Site 1: USP_LOADBOARDID = ""
+Assign Site 2: USP_LOADBOARDID = ""
+Assign Site 3: USP_LOADBOARDID = ""
+Assign Site 4: USP_LOADBOARDID = ""
+Assign Site 5: USP_LOADBOARDID = ""
+Assign Site 6: USP_LOADBOARDID = ""
+Assign Site 7: USP_LOADBOARDID = ""
+Assign Site 8: USP_LOADBOARDID = ""
+
+######## Started Testprogram Testflow ##########################################
+Test program Testflow of device /users/x1071807/V93K_Projects/I3093700/I3093700 started on 11/05/2024 at 01:21:20 AM on v93k09 by x1071807
+Level device started on 11/05/2024 at 01:21:20 AM
+Site 1: P1.1
+Testflow started on 11/05/2024 at 01:21:20 AM
+
+
+Site  TNum      Test  TestSuite        p/f      Pin  LoLim  Measure  HiLim  TestDesc  
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+TestSuite "DISCONNECT_init"  on Site: 1         passed
+
+
+
+Site  TNum      Test  TestSuite  p/f      Pin  LoLim  Measure  HiLim  TestDesc  
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+TestSuite "CONNECT   "  on Site: 1         passed
+
+
+
+Site  TNum      Test                TestSuite  p/f      Pin    LoLim            Measure      HiLim            TestDesc  
+------------------------------------------------------------------------------------------------------------------------
+1     3016      DIODE_GND@B0_R7[1]  DIODE_GND  passed   B0_R7  -1.000000 V <=   -0.439610 V   <= -0.300000 V  .         
+1     3017      DIODE_GND@B1_R6[1]  DIODE_GND  passed   B1_R6  -1.000000 V <=   -0.439224 V   <= -0.300000 V  .         
+1     3018      DIODE_GND@B2_R5[1]  DIODE_GND  passed   B2_R5  -1.000000 V <=   -0.439610 V   <= -0.300000 V  .         
+1     3019      DIODE_GND@B3_R4[1]  DIODE_GND  passed   B3_R4  -1.000000 V <=   -0.439699 V   <= -0.300000 V  .         
+1     3020      DIODE_GND@B4_R3[1]  DIODE_GND  passed   B4_R3  -1.000000 V <=   -0.440280 V   <= -0.300000 V  .         
+1     3021      DIODE_GND@B5_R2[1]  DIODE_GND  passed   B5_R2  -1.000000 V <=   -0.440293 V   <= -0.300000 V  .         
+1     3022      DIODE_GND@B6_R1[1]  DIODE_GND  passed   B6_R1  -1.000000 V <=   -0.441488 V   <= -0.300000 V  .         
+1     3023      DIODE_GND@B7_R0[1]  DIODE_GND  passed   B7_R0  -1.000000 V <=   -0.441987 V   <= -0.300000 V  .         
+1     3024      DIODE_GND@CLKN[1]   DIODE_GND  passed   CLKN   -1.000000 V <=   -0.440179 V   <= -0.300000 V  .         
+1     3025      DIODE_GND@CLKP[1]   DIODE_GND  passed   CLKP   -1.000000 V <=   -0.440337 V   <= -0.300000 V  .         
+1     3026      DIODE_GND@CPOL[1]   DIODE_GND  passed   CPOL   -1.000000 V <=   -0.438256 V   <= -0.300000 V  .         
+1     3027      DIODE_GND@D0N[1]    DIODE_GND  passed   D0N    -1.000000 V <=   -0.439041 V   <= -0.300000 V  .         
+1     3028      DIODE_GND@D0P[1]    DIODE_GND  passed   D0P    -1.000000 V <=   -0.439768 V   <= -0.300000 V  .         
+1     3029      DIODE_GND@D1N[1]    DIODE_GND  passed   D1N    -1.000000 V <=   -0.440407 V   <= -0.300000 V  .         
+1     3030      DIODE_GND@D1P[1]    DIODE_GND  passed   D1P    -1.000000 V <=   -0.440659 V   <= -0.300000 V  .         
+1     3031      DIODE_GND@D2N[1]    DIODE_GND  passed   D2N    -1.000000 V <=   -0.442328 V   <= -0.300000 V  .         
+1     3032      DIODE_GND@D2P[1]    DIODE_GND  passed   D2P    -1.000000 V <=   -0.443397 V   <= -0.300000 V  .         
+1     3033      DIODE_GND@DE[1]     DIODE_GND  passed   DE     -1.000000 V <=   -0.439806 V   <= -0.300000 V  .         
+1     3034      DIODE_GND@G0_G7[1]  DIODE_GND  passed   G0_G7  -1.000000 V <=   -0.440976 V   <= -0.300000 V  .         
+1     3035      DIODE_GND@G1_G6[1]  DIODE_GND  passed   G1_G6  -1.000000 V <=   -0.443251 V   <= -0.300000 V  .         
+1     3036      DIODE_GND@G2_G5[1]  DIODE_GND  passed   G2_G5  -1.000000 V <=   -0.443719 V   <= -0.300000 V  .         
+1     3037      DIODE_GND@G3_G4[1]  DIODE_GND  passed   G3_G4  -1.000000 V <=   -0.444162 V   <= -0.300000 V  .         
+1     3038      DIODE_GND@G4_G3[1]  DIODE_GND  passed   G4_G3  -1.000000 V <=   -0.443137 V   <= -0.300000 V  .         
+1     3039      DIODE_GND@G5_G2[1]  DIODE_GND  passed   G5_G2  -1.000000 V <=   -0.443719 V   <= -0.300000 V  .         
+1     3040      DIODE_GND@G6_G1[1]  DIODE_GND  passed   G6_G1  -1.000000 V <=   -0.443479 V   <= -0.300000 V  .         
+1     3041      DIODE_GND@G7_G0[1]  DIODE_GND  passed   G7_G0  -1.000000 V <=   -0.443194 V   <= -0.300000 V  .         
+1     3042      DIODE_GND@HS[1]     DIODE_GND  passed   HS     -1.000000 V <=   -0.438789 V   <= -0.300000 V  .         
+1     3043      DIODE_GND@LS0[1]    DIODE_GND  passed   LS0    -1.000000 V <=   -0.442752 V   <= -0.300000 V  .         
+1     3044      DIODE_GND@LS1[1]    DIODE_GND  passed   LS1    -1.000000 V <=   -0.444231 V   <= -0.300000 V  .         
+1     3045      DIODE_GND@PCLK[1]   DIODE_GND  passed   PCLK   -1.000000 V <=   -0.439553 V   <= -0.300000 V  .         
+1     3046      DIODE_GND@R0_B7[1]  DIODE_GND  passed   R0_B7  -1.000000 V <=   -0.441967 V   <= -0.300000 V  .         
+1     3047      DIODE_GND@R1_B6[1]  DIODE_GND  passed   R1_B6  -1.000000 V <=   -0.443858 V   <= -0.300000 V  .         
+1     3048      DIODE_GND@R2_B5[1]  DIODE_GND  passed   R2_B5  -1.000000 V <=   -0.443561 V   <= -0.300000 V  .         
+1     3049      DIODE_GND@R3_B4[1]  DIODE_GND  passed   R3_B4  -1.000000 V <=   -0.445299 V   <= -0.300000 V  .         
+1     3050      DIODE_GND@R4_B3[1]  DIODE_GND  passed   R4_B3  -1.000000 V <=   -0.443162 V   <= -0.300000 V  .         
+1     3051      DIODE_GND@R5_B2[1]  DIODE_GND  passed   R5_B2  -1.000000 V <=   -0.440818 V   <= -0.300000 V  .         
+1     3052      DIODE_GND@R6_B1[1]  DIODE_GND  passed   R6_B1  -1.000000 V <=   -0.443365 V   <= -0.300000 V  .         
+1     3053      DIODE_GND@R7_B0[1]  DIODE_GND  passed   R7_B0  -1.000000 V <=   -0.440248 V   <= -0.300000 V  .         
+1     3054      DIODE_GND@SWAP[1]   DIODE_GND  passed   SWAP   -1.000000 V <=   -0.439349 V   <= -0.300000 V  .         
+1     3055      DIODE_GND@TXEN[1]   DIODE_GND  passed   TXEN   -1.000000 V <=   -0.438428 V   <= -0.300000 V  .         
+1     3056      DIODE_GND@VS[1]     DIODE_GND  passed   VS     -1.000000 V <=   -0.439395 V   <= -0.300000 V  .         
+------------------------------------------------------------------------------------------------------------------------
+TestSuite "DIODE_GND "  on Site: 1         passed
+
+
+
+Site  TNum      Test                      TestSuite        p/f      Pin    LoLim                Measure        HiLim             TestDesc  
+-------------------------------------------------------------------------------------------------------------------------------------------
+1     3017      PIN2PIN_ODD_ROW@B0_R7[1]  PIN2PIN_ODD_ROW  passed   B0_R7  -1600.000000 nA <=   -66.000000 nA   <= 75.000000 nA  .         
+1     3018      PIN2PIN_ODD_ROW@B1_R6[1]  PIN2PIN_ODD_ROW  passed   B1_R6  -1600.000000 nA <=   -65.000000 nA   <= 75.000000 nA  .         
+1     3019      PIN2PIN_ODD_ROW@B2_R5[1]  PIN2PIN_ODD_ROW  passed   B2_R5  -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+1     3020      PIN2PIN_ODD_ROW@B3_R4[1]  PIN2PIN_ODD_ROW  passed   B3_R4  -1600.000000 nA <=   -63.000000 nA   <= 75.000000 nA  .         
+1     3021      PIN2PIN_ODD_ROW@B4_R3[1]  PIN2PIN_ODD_ROW  passed   B4_R3  -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+1     3022      PIN2PIN_ODD_ROW@B5_R2[1]  PIN2PIN_ODD_ROW  passed   B5_R2  -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+1     3023      PIN2PIN_ODD_ROW@B6_R1[1]  PIN2PIN_ODD_ROW  passed   B6_R1  -1600.000000 nA <=   -62.000000 nA   <= 75.000000 nA  .         
+1     3024      PIN2PIN_ODD_ROW@B7_R0[1]  PIN2PIN_ODD_ROW  passed   B7_R0  -1600.000000 nA <=   -62.000000 nA   <= 75.000000 nA  .         
+1     3025      PIN2PIN_ODD_ROW@CPOL[1]   PIN2PIN_ODD_ROW  passed   CPOL   -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+1     3026      PIN2PIN_ODD_ROW@DE[1]     PIN2PIN_ODD_ROW  passed   DE     -1600.000000 nA <=   -63.000000 nA   <= 75.000000 nA  .         
+1     3027      PIN2PIN_ODD_ROW@G0_G7[1]  PIN2PIN_ODD_ROW  passed   G0_G7  -1600.000000 nA <=   -61.000000 nA   <= 75.000000 nA  .         
+1     3028      PIN2PIN_ODD_ROW@G1_G6[1]  PIN2PIN_ODD_ROW  passed   G1_G6  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     3029      PIN2PIN_ODD_ROW@G2_G5[1]  PIN2PIN_ODD_ROW  passed   G2_G5  -1600.000000 nA <=   -59.000000 nA   <= 75.000000 nA  .         
+1     3030      PIN2PIN_ODD_ROW@G3_G4[1]  PIN2PIN_ODD_ROW  passed   G3_G4  -1600.000000 nA <=   -58.000000 nA   <= 75.000000 nA  .         
+1     3031      PIN2PIN_ODD_ROW@G4_G3[1]  PIN2PIN_ODD_ROW  passed   G4_G3  -1600.000000 nA <=   -58.000000 nA   <= 75.000000 nA  .         
+1     3032      PIN2PIN_ODD_ROW@G5_G2[1]  PIN2PIN_ODD_ROW  passed   G5_G2  -1600.000000 nA <=   -58.000000 nA   <= 75.000000 nA  .         
+1     3033      PIN2PIN_ODD_ROW@G6_G1[1]  PIN2PIN_ODD_ROW  passed   G6_G1  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     3034      PIN2PIN_ODD_ROW@G7_G0[1]  PIN2PIN_ODD_ROW  passed   G7_G0  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     3035      PIN2PIN_ODD_ROW@HS[1]     PIN2PIN_ODD_ROW  passed   HS     -1600.000000 nA <=   -66.000000 nA   <= 75.000000 nA  .         
+1     3036      PIN2PIN_ODD_ROW@LS0[1]    PIN2PIN_ODD_ROW  passed   LS0    -1600.000000 nA <=   -60.000000 nA   <= 75.000000 nA  .         
+1     3037      PIN2PIN_ODD_ROW@LS1[1]    PIN2PIN_ODD_ROW  passed   LS1    -1600.000000 nA <=   -59.000000 nA   <= 75.000000 nA  .         
+1     3038      PIN2PIN_ODD_ROW@PCLK[1]   PIN2PIN_ODD_ROW  passed   PCLK   -1600.000000 nA <=   -65.000000 nA   <= 75.000000 nA  .         
+1     3039      PIN2PIN_ODD_ROW@R0_B7[1]  PIN2PIN_ODD_ROW  passed   R0_B7  -1600.000000 nA <=   -60.000000 nA   <= 75.000000 nA  .         
+1     3040      PIN2PIN_ODD_ROW@R1_B6[1]  PIN2PIN_ODD_ROW  passed   R1_B6  -1600.000000 nA <=   -56.000000 nA   <= 75.000000 nA  .         
+1     3041      PIN2PIN_ODD_ROW@R2_B5[1]  PIN2PIN_ODD_ROW  passed   R2_B5  -1600.000000 nA <=   -56.000000 nA   <= 75.000000 nA  .         
+1     3042      PIN2PIN_ODD_ROW@R3_B4[1]  PIN2PIN_ODD_ROW  passed   R3_B4  -1600.000000 nA <=   -56.000000 nA   <= 75.000000 nA  .         
+1     3043      PIN2PIN_ODD_ROW@R4_B3[1]  PIN2PIN_ODD_ROW  passed   R4_B3  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     3044      PIN2PIN_ODD_ROW@R5_B2[1]  PIN2PIN_ODD_ROW  passed   R5_B2  -1600.000000 nA <=   -59.000000 nA   <= 75.000000 nA  .         
+1     3045      PIN2PIN_ODD_ROW@R6_B1[1]  PIN2PIN_ODD_ROW  passed   R6_B1  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     3046      PIN2PIN_ODD_ROW@R7_B0[1]  PIN2PIN_ODD_ROW  passed   R7_B0  -1600.000000 nA <=   -59.000000 nA   <= 75.000000 nA  .         
+1     3047      PIN2PIN_ODD_ROW@SWAP[1]   PIN2PIN_ODD_ROW  passed   SWAP   -1600.000000 nA <=   -61.000000 nA   <= 75.000000 nA  .         
+1     3048      PIN2PIN_ODD_ROW@TXEN[1]   PIN2PIN_ODD_ROW  passed   TXEN   -1600.000000 nA <=   -62.000000 nA   <= 75.000000 nA  .         
+1     3049      PIN2PIN_ODD_ROW@VS[1]     PIN2PIN_ODD_ROW  passed   VS     -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+-------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PIN2PIN_ODD_ROW"  on Site: 1         passed
+
+
+
+Site  TNum      Test                    TestSuite        p/f      Pin  LoLim  Measure       HiLim              TestDesc  
+-------------------------------------------------------------------------------------------------------------------------
+1     19        SupplyShort_VDD@VDD[1]  SupplyShort_VDD  passed   VDD  .       0.660333 uA   <= 100.000000 uA  .         
+-------------------------------------------------------------------------------------------------------------------------
+TestSuite "SupplyShort_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                     TestSuite        p/f      Pin   LoLim               Measure         HiLim               TestDesc  
+-------------------------------------------------------------------------------------------------------------------------------------------
+1     18000001  ZOUT_AllOutputs@CLKP[1]  ZOUT_AllOutputs  passed   CLKP  144.000000 Ohm <=   219.306422 Ohm   <= 256.000000 Ohm  .         
+1     18000002  ZOUT_AllOutputs@D0P[1]   ZOUT_AllOutputs  passed   D0P   144.000000 Ohm <=   219.551500 Ohm   <= 256.000000 Ohm  .         
+1     18000003  ZOUT_AllOutputs@D1P[1]   ZOUT_AllOutputs  passed   D1P   144.000000 Ohm <=   217.991254 Ohm   <= 256.000000 Ohm  .         
+1     18000004  ZOUT_AllOutputs@D2P[1]   ZOUT_AllOutputs  passed   D2P   144.000000 Ohm <=   218.378756 Ohm   <= 256.000000 Ohm  .         
+-------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ZOUT_AllOutputs"  on Site: 1         passed
+
+
+
+Site  TNum      Test                 TestSuite   p/f      Pin    LoLim  Measure       HiLim              TestDesc  
+-------------------------------------------------------------------------------------------------------------------
+1     49        IIH_Inputs@B0_R7[1]  IIH_Inputs  passed   B0_R7  .       0.000000 nA   <= 180.000000 nA  .         
+1     50        IIH_Inputs@B1_R6[1]  IIH_Inputs  passed   B1_R6  .       1.000000 nA   <= 180.000000 nA  .         
+1     51        IIH_Inputs@B2_R5[1]  IIH_Inputs  passed   B2_R5  .       1.000000 nA   <= 180.000000 nA  .         
+1     52        IIH_Inputs@B3_R4[1]  IIH_Inputs  passed   B3_R4  .       1.000000 nA   <= 180.000000 nA  .         
+1     53        IIH_Inputs@B4_R3[1]  IIH_Inputs  passed   B4_R3  .       1.000000 nA   <= 180.000000 nA  .         
+1     54        IIH_Inputs@B5_R2[1]  IIH_Inputs  passed   B5_R2  .       1.000000 nA   <= 180.000000 nA  .         
+1     55        IIH_Inputs@B6_R1[1]  IIH_Inputs  passed   B6_R1  .       1.000000 nA   <= 180.000000 nA  .         
+1     56        IIH_Inputs@B7_R0[1]  IIH_Inputs  passed   B7_R0  .       1.000000 nA   <= 180.000000 nA  .         
+1     57        IIH_Inputs@CPOL[1]   IIH_Inputs  passed   CPOL   .       0.000000 nA   <= 180.000000 nA  .         
+1     58        IIH_Inputs@DE[1]     IIH_Inputs  passed   DE     .       0.000000 nA   <= 180.000000 nA  .         
+1     59        IIH_Inputs@G0_G7[1]  IIH_Inputs  passed   G0_G7  .       1.000000 nA   <= 180.000000 nA  .         
+1     60        IIH_Inputs@G1_G6[1]  IIH_Inputs  passed   G1_G6  .       1.000000 nA   <= 180.000000 nA  .         
+1     61        IIH_Inputs@G2_G5[1]  IIH_Inputs  passed   G2_G5  .       1.000000 nA   <= 180.000000 nA  .         
+1     62        IIH_Inputs@G3_G4[1]  IIH_Inputs  passed   G3_G4  .       1.000000 nA   <= 180.000000 nA  .         
+1     63        IIH_Inputs@G4_G3[1]  IIH_Inputs  passed   G4_G3  .       0.000000 nA   <= 180.000000 nA  .         
+1     64        IIH_Inputs@G5_G2[1]  IIH_Inputs  passed   G5_G2  .       0.000000 nA   <= 180.000000 nA  .         
+1     65        IIH_Inputs@G6_G1[1]  IIH_Inputs  passed   G6_G1  .       1.000000 nA   <= 180.000000 nA  .         
+1     66        IIH_Inputs@G7_G0[1]  IIH_Inputs  passed   G7_G0  .       1.000000 nA   <= 180.000000 nA  .         
+1     67        IIH_Inputs@HS[1]     IIH_Inputs  passed   HS     .       1.000000 nA   <= 180.000000 nA  .         
+1     68        IIH_Inputs@LS0[1]    IIH_Inputs  passed   LS0    .       0.000000 nA   <= 180.000000 nA  .         
+1     69        IIH_Inputs@LS1[1]    IIH_Inputs  passed   LS1    .       1.000000 nA   <= 180.000000 nA  .         
+1     70        IIH_Inputs@PCLK[1]   IIH_Inputs  passed   PCLK   .       0.000000 nA   <= 180.000000 nA  .         
+1     71        IIH_Inputs@R0_B7[1]  IIH_Inputs  passed   R0_B7  .       0.000000 nA   <= 180.000000 nA  .         
+1     72        IIH_Inputs@R1_B6[1]  IIH_Inputs  passed   R1_B6  .       0.000000 nA   <= 180.000000 nA  .         
+1     73        IIH_Inputs@R2_B5[1]  IIH_Inputs  passed   R2_B5  .       0.000000 nA   <= 180.000000 nA  .         
+1     74        IIH_Inputs@R3_B4[1]  IIH_Inputs  passed   R3_B4  .       1.000000 nA   <= 180.000000 nA  .         
+1     75        IIH_Inputs@R4_B3[1]  IIH_Inputs  passed   R4_B3  .       0.000000 nA   <= 180.000000 nA  .         
+1     76        IIH_Inputs@R5_B2[1]  IIH_Inputs  passed   R5_B2  .       1.000000 nA   <= 180.000000 nA  .         
+1     77        IIH_Inputs@R6_B1[1]  IIH_Inputs  passed   R6_B1  .       0.000000 nA   <= 180.000000 nA  .         
+1     78        IIH_Inputs@R7_B0[1]  IIH_Inputs  passed   R7_B0  .       0.000000 nA   <= 180.000000 nA  .         
+1     79        IIH_Inputs@SWAP[1]   IIH_Inputs  passed   SWAP   .       0.000000 nA   <= 180.000000 nA  .         
+1     80        IIH_Inputs@TXEN[1]   IIH_Inputs  passed   TXEN   .       0.000000 nA   <= 180.000000 nA  .         
+1     81        IIH_Inputs@VS[1]     IIH_Inputs  passed   VS     .       1.000000 nA   <= 180.000000 nA  .         
+-------------------------------------------------------------------------------------------------------------------
+TestSuite "IIH_Inputs"  on Site: 1         passed
+
+
+
+Site  TNum      Test                 TestSuite   p/f      Pin    LoLim  Measure       HiLim              TestDesc  
+-------------------------------------------------------------------------------------------------------------------
+1     10049     IIL_Inputs@B0_R7[1]  IIL_Inputs  passed   B0_R7  .      -1.000000 nA   <= 180.000000 nA  .         
+1     10050     IIL_Inputs@B1_R6[1]  IIL_Inputs  passed   B1_R6  .       0.000000 nA   <= 180.000000 nA  .         
+1     10051     IIL_Inputs@B2_R5[1]  IIL_Inputs  passed   B2_R5  .       0.000000 nA   <= 180.000000 nA  .         
+1     10052     IIL_Inputs@B3_R4[1]  IIL_Inputs  passed   B3_R4  .       0.000000 nA   <= 180.000000 nA  .         
+1     10053     IIL_Inputs@B4_R3[1]  IIL_Inputs  passed   B4_R3  .       0.000000 nA   <= 180.000000 nA  .         
+1     10054     IIL_Inputs@B5_R2[1]  IIL_Inputs  passed   B5_R2  .       0.000000 nA   <= 180.000000 nA  .         
+1     10055     IIL_Inputs@B6_R1[1]  IIL_Inputs  passed   B6_R1  .       0.000000 nA   <= 180.000000 nA  .         
+1     10056     IIL_Inputs@B7_R0[1]  IIL_Inputs  passed   B7_R0  .       0.000000 nA   <= 180.000000 nA  .         
+1     10057     IIL_Inputs@CPOL[1]   IIL_Inputs  passed   CPOL   .      -1.000000 nA   <= 180.000000 nA  .         
+1     10058     IIL_Inputs@DE[1]     IIL_Inputs  passed   DE     .      -1.000000 nA   <= 180.000000 nA  .         
+1     10059     IIL_Inputs@G0_G7[1]  IIL_Inputs  passed   G0_G7  .       0.000000 nA   <= 180.000000 nA  .         
+1     10060     IIL_Inputs@G1_G6[1]  IIL_Inputs  passed   G1_G6  .       0.000000 nA   <= 180.000000 nA  .         
+1     10061     IIL_Inputs@G2_G5[1]  IIL_Inputs  passed   G2_G5  .       0.000000 nA   <= 180.000000 nA  .         
+1     10062     IIL_Inputs@G3_G4[1]  IIL_Inputs  passed   G3_G4  .       0.000000 nA   <= 180.000000 nA  .         
+1     10063     IIL_Inputs@G4_G3[1]  IIL_Inputs  passed   G4_G3  .      -1.000000 nA   <= 180.000000 nA  .         
+1     10064     IIL_Inputs@G5_G2[1]  IIL_Inputs  passed   G5_G2  .      -1.000000 nA   <= 180.000000 nA  .         
+1     10065     IIL_Inputs@G6_G1[1]  IIL_Inputs  passed   G6_G1  .       0.000000 nA   <= 180.000000 nA  .         
+1     10066     IIL_Inputs@G7_G0[1]  IIL_Inputs  passed   G7_G0  .       0.000000 nA   <= 180.000000 nA  .         
+1     10067     IIL_Inputs@HS[1]     IIL_Inputs  passed   HS     .       0.000000 nA   <= 180.000000 nA  .         
+1     10068     IIL_Inputs@LS0[1]    IIL_Inputs  passed   LS0    .      -1.000000 nA   <= 180.000000 nA  .         
+1     10069     IIL_Inputs@LS1[1]    IIL_Inputs  passed   LS1    .      -1.000000 nA   <= 180.000000 nA  .         
+1     10070     IIL_Inputs@PCLK[1]   IIL_Inputs  passed   PCLK   .      -1.000000 nA   <= 180.000000 nA  .         
+1     10071     IIL_Inputs@R0_B7[1]  IIL_Inputs  passed   R0_B7  .      -1.000000 nA   <= 180.000000 nA  .         
+1     10072     IIL_Inputs@R1_B6[1]  IIL_Inputs  passed   R1_B6  .      -1.000000 nA   <= 180.000000 nA  .         
+1     10073     IIL_Inputs@R2_B5[1]  IIL_Inputs  passed   R2_B5  .       0.000000 nA   <= 180.000000 nA  .         
+1     10074     IIL_Inputs@R3_B4[1]  IIL_Inputs  passed   R3_B4  .       0.000000 nA   <= 180.000000 nA  .         
+1     10075     IIL_Inputs@R4_B3[1]  IIL_Inputs  passed   R4_B3  .      -1.000000 nA   <= 180.000000 nA  .         
+1     10076     IIL_Inputs@R5_B2[1]  IIL_Inputs  passed   R5_B2  .      -1.000000 nA   <= 180.000000 nA  .         
+1     10077     IIL_Inputs@R6_B1[1]  IIL_Inputs  passed   R6_B1  .       0.000000 nA   <= 180.000000 nA  .         
+1     10078     IIL_Inputs@R7_B0[1]  IIL_Inputs  passed   R7_B0  .      -1.000000 nA   <= 180.000000 nA  .         
+1     10079     IIL_Inputs@SWAP[1]   IIL_Inputs  passed   SWAP   .      -1.000000 nA   <= 180.000000 nA  .         
+1     10080     IIL_Inputs@TXEN[1]   IIL_Inputs  passed   TXEN   .      -1.000000 nA   <= 180.000000 nA  .         
+1     10081     IIL_Inputs@VS[1]     IIL_Inputs  passed   VS     .       0.000000 nA   <= 180.000000 nA  .         
+-------------------------------------------------------------------------------------------------------------------
+TestSuite "IIL_Inputs"  on Site: 1         passed
+
+
+
+Site  TNum      Test               TestSuite  p/f      Pin   LoLim             Measure       HiLim             TestDesc  
+-------------------------------------------------------------------------------------------------------------------------
+1     53        IOZ_P_GND@CLKP[1]  IOZ_P_GND  passed   CLKP  -3.000000 uA <=   -0.007000 uA   <=  3.000000 uA  .         
+1     54        IOZ_P_GND@D0P[1]   IOZ_P_GND  passed   D0P   -3.000000 uA <=   -0.010000 uA   <=  3.000000 uA  .         
+1     55        IOZ_P_GND@D1P[1]   IOZ_P_GND  passed   D1P   -3.000000 uA <=   -0.011000 uA   <=  3.000000 uA  .         
+1     56        IOZ_P_GND@D2P[1]   IOZ_P_GND  passed   D2P   -3.000000 uA <=   -0.009000 uA   <=  3.000000 uA  .         
+-------------------------------------------------------------------------------------------------------------------------
+TestSuite "IOZ_P_GND "  on Site: 1         passed
+
+
+
+Site  TNum      Test               TestSuite  p/f      Pin   LoLim             Measure       HiLim             TestDesc  
+-------------------------------------------------------------------------------------------------------------------------
+1     10053     IOZ_P_VDD@CLKP[1]  IOZ_P_VDD  passed   CLKP  -3.000000 uA <=   -0.004000 uA   <=  3.000000 uA  .         
+1     10054     IOZ_P_VDD@D0P[1]   IOZ_P_VDD  passed   D0P   -3.000000 uA <=   -0.005000 uA   <=  3.000000 uA  .         
+1     10055     IOZ_P_VDD@D1P[1]   IOZ_P_VDD  passed   D1P   -3.000000 uA <=   -0.006000 uA   <=  3.000000 uA  .         
+1     10056     IOZ_P_VDD@D2P[1]   IOZ_P_VDD  passed   D2P   -3.000000 uA <=   -0.005000 uA   <=  3.000000 uA  .         
+-------------------------------------------------------------------------------------------------------------------------
+TestSuite "IOZ_P_VDD "  on Site: 1         passed
+
+
+
+Site  TNum      Test               TestSuite  p/f      Pin   LoLim             Measure       HiLim             TestDesc  
+-------------------------------------------------------------------------------------------------------------------------
+1     20053     IOZ_N_VDD@CLKN[1]  IOZ_N_VDD  passed   CLKN  -3.000000 uA <=   -0.004000 uA   <=  3.000000 uA  .         
+1     20054     IOZ_N_VDD@D0N[1]   IOZ_N_VDD  passed   D0N   -3.000000 uA <=   -0.007000 uA   <=  3.000000 uA  .         
+1     20055     IOZ_N_VDD@D1N[1]   IOZ_N_VDD  passed   D1N   -3.000000 uA <=   -0.006000 uA   <=  3.000000 uA  .         
+1     20056     IOZ_N_VDD@D2N[1]   IOZ_N_VDD  passed   D2N   -3.000000 uA <=   -0.004000 uA   <=  3.000000 uA  .         
+-------------------------------------------------------------------------------------------------------------------------
+TestSuite "IOZ_N_VDD "  on Site: 1         passed
+
+
+
+Site  TNum      Test               TestSuite  p/f      Pin   LoLim             Measure       HiLim             TestDesc  
+-------------------------------------------------------------------------------------------------------------------------
+1     30053     IOZ_N_GND@CLKN[1]  IOZ_N_GND  passed   CLKN  -3.000000 uA <=   -0.007000 uA   <=  3.000000 uA  .         
+1     30054     IOZ_N_GND@D0N[1]   IOZ_N_GND  passed   D0N   -3.000000 uA <=   -0.010000 uA   <=  3.000000 uA  .         
+1     30055     IOZ_N_GND@D1N[1]   IOZ_N_GND  passed   D1N   -3.000000 uA <=   -0.010000 uA   <=  3.000000 uA  .         
+1     30056     IOZ_N_GND@D2N[1]   IOZ_N_GND  passed   D2N   -3.000000 uA <=   -0.008000 uA   <=  3.000000 uA  .         
+-------------------------------------------------------------------------------------------------------------------------
+TestSuite "IOZ_N_GND "  on Site: 1         passed
+
+
+
+Site  TNum      Test                              TestSuite                  p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+--------------------------------------------------------------------------------------------------------------------------------------------
+1     57000001  ICC_shutdown_Vdd_LS1l_VDD@VDD[1]  ICC_shutdown_Vdd_LS1l_VDD  passed   VDD  .       0.525386 uA   <=  9.500000 uA  .         
+--------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdown_Vdd_LS1l_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                     TestSuite                   p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+1     57010001  ICC_shutdown_Vdd_LS1l_VDDP@VDDA[1]       ICC_shutdown_Vdd_LS1l_VDDP  passed   VDDA  .       0.342367 uA   <=  9.500000 uA  .         
+1     57010002  ICC_shutdown_Vdd_LS1l_VDDP@VDDP[1]       ICC_shutdown_Vdd_LS1l_VDDP  passed   VDDP  .       0.330690 uA   <=  9.500000 uA  .         
+1     57010003  ICC_shutdown_Vdd_LS1l_VDDP@VDDS[1]       ICC_shutdown_Vdd_LS1l_VDDP  passed   VDDS  .       0.358890 uA   <=  9.500000 uA  .         
+1     57010004  ICC_shutdown_Vdd_LS1l_VDDP@ALL_POWER[1]  ICC_shutdown_Vdd_LS1l_VDDP  passed   .    .       1.031947 uA   <=  9.500000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdown_Vdd_LS1l_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                            TestSuite                p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+----------------------------------------------------------------------------------------------------------------------------------------
+1     57020001  ICC_shutdn_Vdd_LS1f_VDD@VDD[1]  ICC_shutdn_Vdd_LS1f_VDD  passed   VDD  .       0.315622 uA   <=  9.500000 uA  .         
+----------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdn_Vdd_LS1f_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                   TestSuite                 p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1     57030001  ICC_shutdn_Vdd_LS1f_VDDP@VDDA[1]       ICC_shutdn_Vdd_LS1f_VDDP  passed   VDDA  .       0.232327 uA   <=  9.500000 uA  .         
+1     57030002  ICC_shutdn_Vdd_LS1f_VDDP@VDDP[1]       ICC_shutdn_Vdd_LS1f_VDDP  passed   VDDP  .       0.233363 uA   <=  9.500000 uA  .         
+1     57030003  ICC_shutdn_Vdd_LS1f_VDDP@VDDS[1]       ICC_shutdn_Vdd_LS1f_VDDP  passed   VDDS  .       0.250655 uA   <=  9.500000 uA  .         
+1     57030004  ICC_shutdn_Vdd_LS1f_VDDP@ALL_POWER[1]  ICC_shutdn_Vdd_LS1f_VDDP  passed   .    .       0.716345 uA   <=  9.500000 uA  .         
+-------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdn_Vdd_LS1f_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                            TestSuite                p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+----------------------------------------------------------------------------------------------------------------------------------------
+1     57040001  ICC_shutdn_Vdd_LS1h_VDD@VDD[1]  ICC_shutdn_Vdd_LS1h_VDD  passed   VDD  .       0.231244 uA   <=  9.500000 uA  .         
+----------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdn_Vdd_LS1h_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                   TestSuite                 p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1     57050001  ICC_shutdn_Vdd_LS1h_VDDP@VDDA[1]       ICC_shutdn_Vdd_LS1h_VDDP  passed   VDDA  .       0.178485 uA   <=  9.500000 uA  .         
+1     57050002  ICC_shutdn_Vdd_LS1h_VDDP@VDDP[1]       ICC_shutdn_Vdd_LS1h_VDDP  passed   VDDP  .       0.191149 uA   <=  9.500000 uA  .         
+1     57050003  ICC_shutdn_Vdd_LS1h_VDDP@VDDS[1]       ICC_shutdn_Vdd_LS1h_VDDP  passed   VDDS  .       0.186502 uA   <=  9.500000 uA  .         
+1     57050004  ICC_shutdn_Vdd_LS1h_VDDP@ALL_POWER[1]  ICC_shutdn_Vdd_LS1h_VDDP  passed   .    .       0.556136 uA   <=  9.500000 uA  .         
+-------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdn_Vdd_LS1h_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                             TestSuite                 p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+------------------------------------------------------------------------------------------------------------------------------------------
+1     41000001  ICC_shutdown_0V_LS1l_VDD@VDD[1]  ICC_shutdown_0V_LS1l_VDD  passed   VDD  .       0.196152 uA   <=  9.500000 uA  .         
+------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdown_0V_LS1l_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                    TestSuite                  p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+---------------------------------------------------------------------------------------------------------------------------------------------------
+1     41010001  ICC_shutdown_0V_LS1l_VDDP@VDDA[1]       ICC_shutdown_0V_LS1l_VDDP  passed   VDDA  .       0.132504 uA   <=  9.500000 uA  .         
+1     41010002  ICC_shutdown_0V_LS1l_VDDP@VDDP[1]       ICC_shutdown_0V_LS1l_VDDP  passed   VDDP  .       0.136817 uA   <=  9.500000 uA  .         
+1     41010003  ICC_shutdown_0V_LS1l_VDDP@VDDS[1]       ICC_shutdown_0V_LS1l_VDDP  passed   VDDS  .       0.147537 uA   <=  9.500000 uA  .         
+1     41010004  ICC_shutdown_0V_LS1l_VDDP@ALL_POWER[1]  ICC_shutdown_0V_LS1l_VDDP  passed   .    .       0.416858 uA   <=  9.500000 uA  .         
+---------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdown_0V_LS1l_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                           TestSuite               p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+--------------------------------------------------------------------------------------------------------------------------------------
+1     41020001  ICC_shutdn_0V_LS1f_VDD@VDD[1]  ICC_shutdn_0V_LS1f_VDD  passed   VDD  .       0.154751 uA   <=  9.500000 uA  .         
+--------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdn_0V_LS1f_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                  TestSuite                p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1     41030001  ICC_shutdn_0V_LS1f_VDDP@VDDA[1]       ICC_shutdn_0V_LS1f_VDDP  passed   VDDA  .       0.136041 uA   <=  9.500000 uA  .         
+1     41030002  ICC_shutdn_0V_LS1f_VDDP@VDDP[1]       ICC_shutdn_0V_LS1f_VDDP  passed   VDDP  .       0.124309 uA   <=  9.500000 uA  .         
+1     41030003  ICC_shutdn_0V_LS1f_VDDP@VDDS[1]       ICC_shutdn_0V_LS1f_VDDP  passed   VDDS  .       0.131007 uA   <=  9.500000 uA  .         
+1     41030004  ICC_shutdn_0V_LS1f_VDDP@ALL_POWER[1]  ICC_shutdn_0V_LS1f_VDDP  passed   .    .       0.391357 uA   <=  9.500000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdn_0V_LS1f_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                           TestSuite               p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+--------------------------------------------------------------------------------------------------------------------------------------
+1     41040001  ICC_shutdn_0V_LS1h_VDD@VDD[1]  ICC_shutdn_0V_LS1h_VDD  passed   VDD  .       0.140163 uA   <=  9.500000 uA  .         
+--------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdn_0V_LS1h_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                  TestSuite                p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1     41050001  ICC_shutdn_0V_LS1h_VDDP@VDDA[1]       ICC_shutdn_0V_LS1h_VDDP  passed   VDDA  .       0.100671 uA   <=  9.500000 uA  .         
+1     41050002  ICC_shutdn_0V_LS1h_VDDP@VDDP[1]       ICC_shutdn_0V_LS1h_VDDP  passed   VDDP  .       0.124700 uA   <=  9.500000 uA  .         
+1     41050003  ICC_shutdn_0V_LS1h_VDDP@VDDS[1]       ICC_shutdn_0V_LS1h_VDDP  passed   VDDS  .       0.124316 uA   <=  9.500000 uA  .         
+1     41050004  ICC_shutdn_0V_LS1h_VDDP@ALL_POWER[1]  ICC_shutdn_0V_LS1h_VDDP  passed   .    .       0.349687 uA   <=  9.500000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdn_0V_LS1h_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                           TestSuite               p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+--------------------------------------------------------------------------------------------------------------------------------------
+1     60000001  ICC_stdby_Vdd_LS1l_VDD@VDD[1]  ICC_stdby_Vdd_LS1l_VDD  passed   VDD  .       0.108619 uA   <=  9.500000 uA  .         
+--------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_Vdd_LS1l_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                  TestSuite                p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1     60010001  ICC_stdby_Vdd_LS1l_VDDP@VDDA[1]       ICC_stdby_Vdd_LS1l_VDDP  passed   VDDA  .       0.112068 uA   <=  9.500000 uA  .         
+1     60010002  ICC_stdby_Vdd_LS1l_VDDP@VDDP[1]       ICC_stdby_Vdd_LS1l_VDDP  passed   VDDP  .       0.084831 uA   <=  9.500000 uA  .         
+1     60010003  ICC_stdby_Vdd_LS1l_VDDP@VDDS[1]       ICC_stdby_Vdd_LS1l_VDDP  passed   VDDS  .       0.106998 uA   <=  9.500000 uA  .         
+1     60010004  ICC_stdby_Vdd_LS1l_VDDP@ALL_POWER[1]  ICC_stdby_Vdd_LS1l_VDDP  passed   .    .       0.303897 uA   <=  9.500000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_Vdd_LS1l_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                           TestSuite               p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+--------------------------------------------------------------------------------------------------------------------------------------
+1     60020001  ICC_stdby_Vdd_LS1f_VDD@VDD[1]  ICC_stdby_Vdd_LS1f_VDD  passed   VDD  .       0.115322 uA   <=  9.500000 uA  .         
+--------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_Vdd_LS1f_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                  TestSuite                p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1     60030001  ICC_stdby_Vdd_LS1f_VDDP@VDDA[1]       ICC_stdby_Vdd_LS1f_VDDP  passed   VDDA  .       0.081807 uA   <=  9.500000 uA  .         
+1     60030002  ICC_stdby_Vdd_LS1f_VDDP@VDDP[1]       ICC_stdby_Vdd_LS1f_VDDP  passed   VDDP  .       0.093821 uA   <=  9.500000 uA  .         
+1     60030003  ICC_stdby_Vdd_LS1f_VDDP@VDDS[1]       ICC_stdby_Vdd_LS1f_VDDP  passed   VDDS  .       0.085351 uA   <=  9.500000 uA  .         
+1     60030004  ICC_stdby_Vdd_LS1f_VDDP@ALL_POWER[1]  ICC_stdby_Vdd_LS1f_VDDP  passed   .    .       0.260979 uA   <=  9.500000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_Vdd_LS1f_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                           TestSuite               p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+--------------------------------------------------------------------------------------------------------------------------------------
+1     60040001  ICC_stdby_Vdd_LS1h_VDD@VDD[1]  ICC_stdby_Vdd_LS1h_VDD  passed   VDD  .       0.118477 uA   <=  9.500000 uA  .         
+--------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_Vdd_LS1h_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                  TestSuite                p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1     60050001  ICC_stdby_Vdd_LS1h_VDDP@VDDA[1]       ICC_stdby_Vdd_LS1h_VDDP  passed   VDDA  .       0.081807 uA   <=  9.500000 uA  .         
+1     60050002  ICC_stdby_Vdd_LS1h_VDDP@VDDP[1]       ICC_stdby_Vdd_LS1h_VDDP  passed   VDDP  .       0.084440 uA   <=  9.500000 uA  .         
+1     60050003  ICC_stdby_Vdd_LS1h_VDDP@VDDS[1]       ICC_stdby_Vdd_LS1h_VDDP  passed   VDDS  .       0.068034 uA   <=  9.500000 uA  .         
+1     60050004  ICC_stdby_Vdd_LS1h_VDDP@ALL_POWER[1]  ICC_stdby_Vdd_LS1h_VDDP  passed   .    .       0.234281 uA   <=  9.500000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_Vdd_LS1h_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                          TestSuite              p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+------------------------------------------------------------------------------------------------------------------------------------
+1     89000001  ICC_stdby_0V_LS1l_VDD@VDD[1]  ICC_stdby_0V_LS1l_VDD  passed   VDD  .       0.097973 uA   <=  9.500000 uA  .         
+------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_0V_LS1l_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                 TestSuite               p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+---------------------------------------------------------------------------------------------------------------------------------------------
+1     89010001  ICC_stdby_0V_LS1l_VDDP@VDDA[1]       ICC_stdby_0V_LS1l_VDDP  passed   VDDA  .       0.056261 uA   <=  9.500000 uA  .         
+1     89010002  ICC_stdby_0V_LS1l_VDDP@VDDP[1]       ICC_stdby_0V_LS1l_VDDP  passed   VDDP  .       0.072323 uA   <=  9.500000 uA  .         
+1     89010003  ICC_stdby_0V_LS1l_VDDP@VDDS[1]       ICC_stdby_0V_LS1l_VDDP  passed   VDDS  .       0.080235 uA   <=  9.500000 uA  .         
+1     89010004  ICC_stdby_0V_LS1l_VDDP@ALL_POWER[1]  ICC_stdby_0V_LS1l_VDDP  passed   .    .       0.208819 uA   <=  9.500000 uA  .         
+---------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_0V_LS1l_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                          TestSuite              p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+------------------------------------------------------------------------------------------------------------------------------------
+1     89020001  ICC_stdby_0V_LS1f_VDD@VDD[1]  ICC_stdby_0V_LS1f_VDD  passed   VDD  .       0.064459 uA   <=  9.500000 uA  .         
+------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_0V_LS1f_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                 TestSuite               p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+---------------------------------------------------------------------------------------------------------------------------------------------
+1     89030001  ICC_stdby_0V_LS1f_VDDP@VDDA[1]       ICC_stdby_0V_LS1f_VDDP  passed   VDDA  .       0.088488 uA   <=  9.500000 uA  .         
+1     89030002  ICC_stdby_0V_LS1f_VDDP@VDDP[1]       ICC_stdby_0V_LS1f_VDDP  passed   VDDP  .       0.044180 uA   <=  9.500000 uA  .         
+1     89030003  ICC_stdby_0V_LS1f_VDDP@VDDS[1]       ICC_stdby_0V_LS1f_VDDP  passed   VDDS  .       0.094797 uA   <=  9.500000 uA  .         
+1     89030004  ICC_stdby_0V_LS1f_VDDP@ALL_POWER[1]  ICC_stdby_0V_LS1f_VDDP  passed   .    .       0.227465 uA   <=  9.500000 uA  .         
+---------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_0V_LS1f_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                          TestSuite              p/f      Pin  LoLim  Measure       HiLim             TestDesc  
+------------------------------------------------------------------------------------------------------------------------------------
+1     89040001  ICC_stdby_0V_LS1h_VDD@VDD[1]  ICC_stdby_0V_LS1h_VDD  passed   VDD  .       0.088116 uA   <=  9.500000 uA  .         
+------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_0V_LS1h_VDD"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                 TestSuite               p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+---------------------------------------------------------------------------------------------------------------------------------------------
+1     89050001  ICC_stdby_0V_LS1h_VDDP@VDDA[1]       ICC_stdby_0V_LS1h_VDDP  passed   VDDA  .       0.069231 uA   <=  9.500000 uA  .         
+1     89050002  ICC_stdby_0V_LS1h_VDDP@VDDP[1]       ICC_stdby_0V_LS1h_VDDP  passed   VDDP  .       0.077014 uA   <=  9.500000 uA  .         
+1     89050003  ICC_stdby_0V_LS1h_VDDP@VDDS[1]       ICC_stdby_0V_LS1h_VDDP  passed   VDDS  .       0.064098 uA   <=  9.500000 uA  .         
+1     89050004  ICC_stdby_0V_LS1h_VDDP@ALL_POWER[1]  ICC_stdby_0V_LS1h_VDDP  passed   .    .       0.210343 uA   <=  9.500000 uA  .         
+---------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_0V_LS1h_VDDP"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                TestSuite              p/f      Pin  LoLim             Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+1     39015001  ICC_MAX_TOTAL_1CH_pwr@ALL_POWER[1]  ICC_MAX_TOTAL_1CH_pwr  passed   .     0.000065 mA <=   16.174808 mA   <= 18.300000 mA  .         
+1     39004000  Functional[1]                       ICC_MAX_TOTAL_1CH_pwr  passed   .     1.000000   ==     1.000000      == 1.000000      .         
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_MAX_TOTAL_1CH_pwr"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                                   TestSuite              p/f      Pin   LoLim              Measure          HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1     15000001  ICC_MAX_TOTAL_2CH_pwr@VDD[1]                           ICC_MAX_TOTAL_2CH_pwr  passed   VDD   200.000000 uA <=   3353.042062 uA   .                 .         
+1     15000002  ICC_MAX_TOTAL_2CH_pwr@VDDA[1]                          ICC_MAX_TOTAL_2CH_pwr  passed   VDDA  200.000000 uA <=   5033.662543 uA   .                 .         
+1     15000003  ICC_MAX_TOTAL_2CH_pwr@VDDP[1]                          ICC_MAX_TOTAL_2CH_pwr  passed   VDDP  200.000000 uA <=   2917.824080 uA   .                 .         
+1     15000004  ICC_MAX_TOTAL_2CH_pwr@VDDS[1]                          ICC_MAX_TOTAL_2CH_pwr  passed   VDDS  200.000000 uA <=   9697.702713 uA   .                 .         
+1     15000004  ICC_MAX_TOTAL_2CH_pwr@VDDA_VDDP_VDDS[1]                ICC_MAX_TOTAL_2CH_pwr  passed   .    200.000000 uA <=   17649.189336 uA  .                 .         
+1     15000001  ICC_MAX_TOTAL_2CH_pwr_VDD_VDDP_VDDA_VDDS@ALL_POWER[1]  ICC_MAX_TOTAL_2CH_pwr  passed   .     0.200000 mA <=    23.002231 mA      <= 25.300000 mA  .         
+1     15004000  Functional[1]                                          ICC_MAX_TOTAL_2CH_pwr  passed   .     1.000000   ==      1.000000         == 1.000000      .         
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_MAX_TOTAL_2CH_pwr"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                                   TestSuite              p/f      Pin   LoLim             Measure       HiLim             TestDesc  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1     13000001  ICC_MAX_TOTAL_3CH_pwr@VDD[1]                           ICC_MAX_TOTAL_3CH_pwr  passed   VDD    1.000000 mA <=    6.508521 mA  .                 .         
+1     13000002  ICC_MAX_TOTAL_3CH_pwr@VDDA[1]                          ICC_MAX_TOTAL_3CH_pwr  passed   VDDA   1.000000 mA <=    4.318189 mA  .                 .         
+1     13000003  ICC_MAX_TOTAL_3CH_pwr@VDDP[1]                          ICC_MAX_TOTAL_3CH_pwr  passed   VDDP   1.000000 mA <=    4.168801 mA  .                 .         
+1     13000004  ICC_MAX_TOTAL_3CH_pwr@VDDS[1]                          ICC_MAX_TOTAL_3CH_pwr  passed   VDDS   1.000000 mA <=   12.925512 mA  .                 .         
+1     13000004  ICC_MAX_TOTAL_3CH_pwr@VDDA_VDDP_VDDS[1]                ICC_MAX_TOTAL_3CH_pwr  passed   .     1.000000 mA <=   21.412503 mA  .                 .         
+1     13000001  ICC_MAX_TOTAL_3CH_pwr_VDD_VDDP_VDDA_VDDS@ALL_POWER[1]  ICC_MAX_TOTAL_3CH_pwr  passed   .     0.000006 mA <=   29.921023 mA   <= 37.800000 mA  .         
+1     13004000  Functional[1]                                          ICC_MAX_TOTAL_3CH_pwr  passed   .     1.000000   ==     1.000000      == 1.000000      .         
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_MAX_TOTAL_3CH_pwr"  on Site: 1         passed
+
+
+
+Site  TNum      Test                                TestSuite         p/f      Pin   LoLim           Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1     23000001  ICC_shutdown_Vdd@VDD[1]             ICC_shutdown_Vdd  passed   VDD   .                0.073922 uA   <=  9.500000 uA  .         
+1     23000002  ICC_shutdown_Vdd@VDDA[1]            ICC_shutdown_Vdd  passed   VDDA  .                0.064515 uA   <=  9.500000 uA  .         
+1     23000003  ICC_shutdown_Vdd@VDDP[1]            ICC_shutdown_Vdd  passed   VDDP  .                0.051607 uA   <=  9.500000 uA  .         
+1     23000004  ICC_shutdown_Vdd@VDDS[1]            ICC_shutdown_Vdd  passed   VDDS  .                0.066066 uA   <=  9.500000 uA  .         
+1     23000004  ICC_shutdown_Vdd@VDDA_VDDP_VDDS[1]  ICC_shutdown_Vdd  passed   .    .                0.182188 uA   <=  9.500000 uA  .         
+1     23004000  Functional[1]                       ICC_shutdown_Vdd  passed   .     1.000000   ==   1.000000      == 1.000000      .         
+-----------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdown_Vdd"  on Site: 1         passed
+
+
+
+Site  TNum      Test                             TestSuite      p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+--------------------------------------------------------------------------------------------------------------------------------
+1     23010001  ICC_shutdn_0V@VDD[1]             ICC_shutdn_0V  passed   VDD   .       0.085356 uA   <=  9.500000 uA  .         
+1     23010002  ICC_shutdn_0V@VDDA[1]            ICC_shutdn_0V  passed   VDDA  .       0.037397 uA   <=  9.500000 uA  .         
+1     23010003  ICC_shutdn_0V@VDDP[1]            ICC_shutdn_0V  passed   VDDP  .       0.045353 uA   <=  9.500000 uA  .         
+1     23010004  ICC_shutdn_0V@VDDS[1]            ICC_shutdn_0V  passed   VDDS  .       0.060162 uA   <=  9.500000 uA  .         
+1     23010004  ICC_shutdn_0V@VDDA_VDDP_VDDS[1]  ICC_shutdn_0V  passed   .    .       0.142912 uA   <=  9.500000 uA  .         
+--------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_shutdn_0V"  on Site: 1         passed
+
+
+
+Site  TNum      Test                             TestSuite      p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+--------------------------------------------------------------------------------------------------------------------------------
+1     23020001  ICC_stdby_Vdd@VDD[1]             ICC_stdby_Vdd  passed   VDD   .       0.080625 uA   <=  9.500000 uA  .         
+1     23020002  ICC_stdby_Vdd@VDDA[1]            ICC_stdby_Vdd  passed   VDDA  .       0.062550 uA   <=  9.500000 uA  .         
+1     23020003  ICC_stdby_Vdd@VDDP[1]            ICC_stdby_Vdd  passed   VDDP  .       0.059815 uA   <=  9.500000 uA  .         
+1     23020004  ICC_stdby_Vdd@VDDS[1]            ICC_stdby_Vdd  passed   VDDS  .       0.066460 uA   <=  9.500000 uA  .         
+1     23020004  ICC_stdby_Vdd@VDDA_VDDP_VDDS[1]  ICC_stdby_Vdd  passed   .    .       0.188825 uA   <=  9.500000 uA  .         
+--------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_Vdd"  on Site: 1         passed
+
+
+
+Site  TNum      Test                            TestSuite     p/f      Pin   LoLim  Measure       HiLim             TestDesc  
+------------------------------------------------------------------------------------------------------------------------------
+1     23030001  ICC_stdby_0V@VDD[1]             ICC_stdby_0V  passed   VDD   .       0.083779 uA   <=  9.500000 uA  .         
+1     23030002  ICC_stdby_0V@VDDA[1]            ICC_stdby_0V  passed   VDDA  .       0.060192 uA   <=  9.500000 uA  .         
+1     23030003  ICC_stdby_0V@VDDP[1]            ICC_stdby_0V  passed   VDDP  .       0.030500 uA   <=  9.500000 uA  .         
+1     23030004  ICC_stdby_0V@VDDS[1]            ICC_stdby_0V  passed   VDDS  .       0.087713 uA   <=  9.500000 uA  .         
+1     23030004  ICC_stdby_0V@VDDA_VDDP_VDDS[1]  ICC_stdby_0V  passed   .    .       0.178405 uA   <=  9.500000 uA  .         
+------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ICC_stdby_0V"  on Site: 1         passed
+
+
+
+Site  TNum      Test         TestSuite  p/f      Pin  LoLim           Measure      HiLim           TestDesc  
+-------------------------------------------------------------------------------------------------------------
+1     14000001  PRBS_1ch[1]  PRBS_1ch   FAILED   .     1.000000   ==   0.000000     == 1.000000    .         
+-------------------------------------------------------------------------------------------------------------
+TestSuite "PRBS_1ch  "  on Site: 1         failed
+
+Site 1 has FAILED. Binned to bin 36(7)
+
+
+Site  TNum      Test         TestSuite  p/f      Pin  LoLim           Measure      HiLim           TestDesc  
+-------------------------------------------------------------------------------------------------------------
+1     32000001  Func_2CH[1]  Func_2CH   passed   .     1.000000   ==   1.000000     == 1.000000    .         
+-------------------------------------------------------------------------------------------------------------
+TestSuite "Func_2CH  "  on Site: 1         passed
+
+
+
+Site  TNum      Test         TestSuite  p/f      Pin  LoLim           Measure      HiLim           TestDesc  
+-------------------------------------------------------------------------------------------------------------
+1     34000001  Func_3CH[1]  Func_3CH   passed   .     1.000000   ==   1.000000     == 1.000000    .         
+-------------------------------------------------------------------------------------------------------------
+TestSuite "Func_3CH  "  on Site: 1         passed
+
+
+
+Site  TNum      Test            TestSuite    p/f      Pin  LoLim           Measure      HiLim           TestDesc  
+------------------------------------------------------------------------------------------------------------------
+1     12000001  t_pwrup_GNG[1]  t_pwrup_GNG  passed   .     1.000000   ==   1.000000     == 1.000000    .         
+------------------------------------------------------------------------------------------------------------------
+TestSuite "t_pwrup_GNG"  on Site: 1         passed
+
+
+
+Site  TNum      Test           TestSuite   p/f      Pin  LoLim           Measure      HiLim           TestDesc  
+----------------------------------------------------------------------------------------------------------------
+1     12010001  t_wkup_GNG[1]  t_wkup_GNG  passed   .     1.000000   ==   1.000000     == 1.000000    .         
+----------------------------------------------------------------------------------------------------------------
+TestSuite "t_wkup_GNG"  on Site: 1         passed
+
+
+
+Site  TNum      Test        TestSuite  p/f      Pin  LoLim           Measure      HiLim           TestDesc  
+------------------------------------------------------------------------------------------------------------
+1     40000001  tGS_GNG[1]  tGS_GNG    passed   .     1.000000   ==   1.000000     == 1.000000    .         
+------------------------------------------------------------------------------------------------------------
+TestSuite "tGS_GNG   "  on Site: 1         passed
+
+
+
+Site  TNum      Test            TestSuite    p/f      Pin  LoLim           Measure      HiLim           TestDesc  
+------------------------------------------------------------------------------------------------------------------
+1     40010001  t_pwrdn_GNG[1]  t_pwrdn_GNG  passed   .     1.000000   ==   1.000000     == 1.000000    .         
+------------------------------------------------------------------------------------------------------------------
+TestSuite "t_pwrdn_GNG"  on Site: 1         passed
+
+
+
+Site  TNum      Test            TestSuite    p/f      Pin  LoLim           Measure      HiLim           TestDesc  
+------------------------------------------------------------------------------------------------------------------
+1     40020001  t_sleep_GNG[1]  t_sleep_GNG  passed   .     1.000000   ==   1.000000     == 1.000000    .         
+------------------------------------------------------------------------------------------------------------------
+TestSuite "t_sleep_GNG"  on Site: 1         passed
+
+
+
+Site  TNum      Test                          TestSuite             p/f      Pin   LoLim               Measure         HiLim               TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+1     180000001 ZOUT_AllOutputs_Post@CLKP[1]  ZOUT_AllOutputs_Post  passed   CLKP  144.000000 Ohm <=   219.318446 Ohm   <= 256.000000 Ohm  .         
+1     180000002 ZOUT_AllOutputs_Post@D0P[1]   ZOUT_AllOutputs_Post  passed   D0P   144.000000 Ohm <=   219.725651 Ohm   <= 256.000000 Ohm  .         
+1     180000003 ZOUT_AllOutputs_Post@D1P[1]   ZOUT_AllOutputs_Post  passed   D1P   144.000000 Ohm <=   218.049720 Ohm   <= 256.000000 Ohm  .         
+1     180000004 ZOUT_AllOutputs_Post@D2P[1]   ZOUT_AllOutputs_Post  passed   D2P   144.000000 Ohm <=   218.342518 Ohm   <= 256.000000 Ohm  .         
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "ZOUT_AllOutputs_Post"  on Site: 1         passed
+
+
+
+Site  TNum      Test                      TestSuite        p/f      Pin    LoLim  Measure       HiLim              TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------
+1     149       IIH_Inputs_Post@B0_R7[1]  IIH_Inputs_Post  passed   B0_R7  .       0.000000 nA   <= 180.000000 nA  .         
+1     150       IIH_Inputs_Post@B1_R6[1]  IIH_Inputs_Post  passed   B1_R6  .       1.000000 nA   <= 180.000000 nA  .         
+1     151       IIH_Inputs_Post@B2_R5[1]  IIH_Inputs_Post  passed   B2_R5  .       0.000000 nA   <= 180.000000 nA  .         
+1     152       IIH_Inputs_Post@B3_R4[1]  IIH_Inputs_Post  passed   B3_R4  .       1.000000 nA   <= 180.000000 nA  .         
+1     153       IIH_Inputs_Post@B4_R3[1]  IIH_Inputs_Post  passed   B4_R3  .       1.000000 nA   <= 180.000000 nA  .         
+1     154       IIH_Inputs_Post@B5_R2[1]  IIH_Inputs_Post  passed   B5_R2  .       1.000000 nA   <= 180.000000 nA  .         
+1     155       IIH_Inputs_Post@B6_R1[1]  IIH_Inputs_Post  passed   B6_R1  .       0.000000 nA   <= 180.000000 nA  .         
+1     156       IIH_Inputs_Post@B7_R0[1]  IIH_Inputs_Post  passed   B7_R0  .       1.000000 nA   <= 180.000000 nA  .         
+1     157       IIH_Inputs_Post@CPOL[1]   IIH_Inputs_Post  passed   CPOL   .       0.000000 nA   <= 180.000000 nA  .         
+1     158       IIH_Inputs_Post@DE[1]     IIH_Inputs_Post  passed   DE     .       0.000000 nA   <= 180.000000 nA  .         
+1     159       IIH_Inputs_Post@G0_G7[1]  IIH_Inputs_Post  passed   G0_G7  .       1.000000 nA   <= 180.000000 nA  .         
+1     160       IIH_Inputs_Post@G1_G6[1]  IIH_Inputs_Post  passed   G1_G6  .       1.000000 nA   <= 180.000000 nA  .         
+1     161       IIH_Inputs_Post@G2_G5[1]  IIH_Inputs_Post  passed   G2_G5  .       1.000000 nA   <= 180.000000 nA  .         
+1     162       IIH_Inputs_Post@G3_G4[1]  IIH_Inputs_Post  passed   G3_G4  .       1.000000 nA   <= 180.000000 nA  .         
+1     163       IIH_Inputs_Post@G4_G3[1]  IIH_Inputs_Post  passed   G4_G3  .       0.000000 nA   <= 180.000000 nA  .         
+1     164       IIH_Inputs_Post@G5_G2[1]  IIH_Inputs_Post  passed   G5_G2  .       0.000000 nA   <= 180.000000 nA  .         
+1     165       IIH_Inputs_Post@G6_G1[1]  IIH_Inputs_Post  passed   G6_G1  .       1.000000 nA   <= 180.000000 nA  .         
+1     166       IIH_Inputs_Post@G7_G0[1]  IIH_Inputs_Post  passed   G7_G0  .       1.000000 nA   <= 180.000000 nA  .         
+1     167       IIH_Inputs_Post@HS[1]     IIH_Inputs_Post  passed   HS     .       1.000000 nA   <= 180.000000 nA  .         
+1     168       IIH_Inputs_Post@LS0[1]    IIH_Inputs_Post  passed   LS0    .       0.000000 nA   <= 180.000000 nA  .         
+1     169       IIH_Inputs_Post@LS1[1]    IIH_Inputs_Post  passed   LS1    .       0.000000 nA   <= 180.000000 nA  .         
+1     170       IIH_Inputs_Post@PCLK[1]   IIH_Inputs_Post  passed   PCLK   .       0.000000 nA   <= 180.000000 nA  .         
+1     171       IIH_Inputs_Post@R0_B7[1]  IIH_Inputs_Post  passed   R0_B7  .       0.000000 nA   <= 180.000000 nA  .         
+1     172       IIH_Inputs_Post@R1_B6[1]  IIH_Inputs_Post  passed   R1_B6  .       0.000000 nA   <= 180.000000 nA  .         
+1     173       IIH_Inputs_Post@R2_B5[1]  IIH_Inputs_Post  passed   R2_B5  .       0.000000 nA   <= 180.000000 nA  .         
+1     174       IIH_Inputs_Post@R3_B4[1]  IIH_Inputs_Post  passed   R3_B4  .       1.000000 nA   <= 180.000000 nA  .         
+1     175       IIH_Inputs_Post@R4_B3[1]  IIH_Inputs_Post  passed   R4_B3  .       0.000000 nA   <= 180.000000 nA  .         
+1     176       IIH_Inputs_Post@R5_B2[1]  IIH_Inputs_Post  passed   R5_B2  .       1.000000 nA   <= 180.000000 nA  .         
+1     177       IIH_Inputs_Post@R6_B1[1]  IIH_Inputs_Post  passed   R6_B1  .       0.000000 nA   <= 180.000000 nA  .         
+1     178       IIH_Inputs_Post@R7_B0[1]  IIH_Inputs_Post  passed   R7_B0  .       0.000000 nA   <= 180.000000 nA  .         
+1     179       IIH_Inputs_Post@SWAP[1]   IIH_Inputs_Post  passed   SWAP   .       0.000000 nA   <= 180.000000 nA  .         
+1     180       IIH_Inputs_Post@TXEN[1]   IIH_Inputs_Post  passed   TXEN   .       0.000000 nA   <= 180.000000 nA  .         
+1     181       IIH_Inputs_Post@VS[1]     IIH_Inputs_Post  passed   VS     .       0.000000 nA   <= 180.000000 nA  .         
+-----------------------------------------------------------------------------------------------------------------------------
+TestSuite "IIH_Inputs_Post"  on Site: 1         passed
+
+
+
+Site  TNum      Test                      TestSuite        p/f      Pin    LoLim  Measure       HiLim              TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------
+1     1049      IIL_Inputs_Post@B0_R7[1]  IIL_Inputs_Post  passed   B0_R7  .       0.000000 nA   <= 180.000000 nA  .         
+1     1050      IIL_Inputs_Post@B1_R6[1]  IIL_Inputs_Post  passed   B1_R6  .       0.000000 nA   <= 180.000000 nA  .         
+1     1051      IIL_Inputs_Post@B2_R5[1]  IIL_Inputs_Post  passed   B2_R5  .       0.000000 nA   <= 180.000000 nA  .         
+1     1052      IIL_Inputs_Post@B3_R4[1]  IIL_Inputs_Post  passed   B3_R4  .       0.000000 nA   <= 180.000000 nA  .         
+1     1053      IIL_Inputs_Post@B4_R3[1]  IIL_Inputs_Post  passed   B4_R3  .       0.000000 nA   <= 180.000000 nA  .         
+1     1054      IIL_Inputs_Post@B5_R2[1]  IIL_Inputs_Post  passed   B5_R2  .       0.000000 nA   <= 180.000000 nA  .         
+1     1055      IIL_Inputs_Post@B6_R1[1]  IIL_Inputs_Post  passed   B6_R1  .       0.000000 nA   <= 180.000000 nA  .         
+1     1056      IIL_Inputs_Post@B7_R0[1]  IIL_Inputs_Post  passed   B7_R0  .       0.000000 nA   <= 180.000000 nA  .         
+1     1057      IIL_Inputs_Post@CPOL[1]   IIL_Inputs_Post  passed   CPOL   .      -1.000000 nA   <= 180.000000 nA  .         
+1     1058      IIL_Inputs_Post@DE[1]     IIL_Inputs_Post  passed   DE     .      -1.000000 nA   <= 180.000000 nA  .         
+1     1059      IIL_Inputs_Post@G0_G7[1]  IIL_Inputs_Post  passed   G0_G7  .       0.000000 nA   <= 180.000000 nA  .         
+1     1060      IIL_Inputs_Post@G1_G6[1]  IIL_Inputs_Post  passed   G1_G6  .       0.000000 nA   <= 180.000000 nA  .         
+1     1061      IIL_Inputs_Post@G2_G5[1]  IIL_Inputs_Post  passed   G2_G5  .       0.000000 nA   <= 180.000000 nA  .         
+1     1062      IIL_Inputs_Post@G3_G4[1]  IIL_Inputs_Post  passed   G3_G4  .       0.000000 nA   <= 180.000000 nA  .         
+1     1063      IIL_Inputs_Post@G4_G3[1]  IIL_Inputs_Post  passed   G4_G3  .      -1.000000 nA   <= 180.000000 nA  .         
+1     1064      IIL_Inputs_Post@G5_G2[1]  IIL_Inputs_Post  passed   G5_G2  .      -1.000000 nA   <= 180.000000 nA  .         
+1     1065      IIL_Inputs_Post@G6_G1[1]  IIL_Inputs_Post  passed   G6_G1  .       0.000000 nA   <= 180.000000 nA  .         
+1     1066      IIL_Inputs_Post@G7_G0[1]  IIL_Inputs_Post  passed   G7_G0  .       0.000000 nA   <= 180.000000 nA  .         
+1     1067      IIL_Inputs_Post@HS[1]     IIL_Inputs_Post  passed   HS     .       0.000000 nA   <= 180.000000 nA  .         
+1     1068      IIL_Inputs_Post@LS0[1]    IIL_Inputs_Post  passed   LS0    .      -1.000000 nA   <= 180.000000 nA  .         
+1     1069      IIL_Inputs_Post@LS1[1]    IIL_Inputs_Post  passed   LS1    .      -1.000000 nA   <= 180.000000 nA  .         
+1     1070      IIL_Inputs_Post@PCLK[1]   IIL_Inputs_Post  passed   PCLK   .      -1.000000 nA   <= 180.000000 nA  .         
+1     1071      IIL_Inputs_Post@R0_B7[1]  IIL_Inputs_Post  passed   R0_B7  .      -1.000000 nA   <= 180.000000 nA  .         
+1     1072      IIL_Inputs_Post@R1_B6[1]  IIL_Inputs_Post  passed   R1_B6  .      -1.000000 nA   <= 180.000000 nA  .         
+1     1073      IIL_Inputs_Post@R2_B5[1]  IIL_Inputs_Post  passed   R2_B5  .      -1.000000 nA   <= 180.000000 nA  .         
+1     1074      IIL_Inputs_Post@R3_B4[1]  IIL_Inputs_Post  passed   R3_B4  .       0.000000 nA   <= 180.000000 nA  .         
+1     1075      IIL_Inputs_Post@R4_B3[1]  IIL_Inputs_Post  passed   R4_B3  .      -1.000000 nA   <= 180.000000 nA  .         
+1     1076      IIL_Inputs_Post@R5_B2[1]  IIL_Inputs_Post  passed   R5_B2  .       0.000000 nA   <= 180.000000 nA  .         
+1     1077      IIL_Inputs_Post@R6_B1[1]  IIL_Inputs_Post  passed   R6_B1  .      -1.000000 nA   <= 180.000000 nA  .         
+1     1078      IIL_Inputs_Post@R7_B0[1]  IIL_Inputs_Post  passed   R7_B0  .      -1.000000 nA   <= 180.000000 nA  .         
+1     1079      IIL_Inputs_Post@SWAP[1]   IIL_Inputs_Post  passed   SWAP   .      -1.000000 nA   <= 180.000000 nA  .         
+1     1080      IIL_Inputs_Post@TXEN[1]   IIL_Inputs_Post  passed   TXEN   .      -1.000000 nA   <= 180.000000 nA  .         
+1     1081      IIL_Inputs_Post@VS[1]     IIL_Inputs_Post  passed   VS     .       0.000000 nA   <= 180.000000 nA  .         
+-----------------------------------------------------------------------------------------------------------------------------
+TestSuite "IIL_Inputs_Post"  on Site: 1         passed
+
+
+
+Site  TNum      Test                    TestSuite       p/f      Pin   LoLim             Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------
+1     100053    IOZ_P_GND_Post@CLKP[1]  IOZ_P_GND_Post  passed   CLKP  -3.000000 uA <=   -0.006000 uA   <=  3.000000 uA  .         
+1     100054    IOZ_P_GND_Post@D0P[1]   IOZ_P_GND_Post  passed   D0P   -3.000000 uA <=   -0.009000 uA   <=  3.000000 uA  .         
+1     100055    IOZ_P_GND_Post@D1P[1]   IOZ_P_GND_Post  passed   D1P   -3.000000 uA <=   -0.011000 uA   <=  3.000000 uA  .         
+1     100056    IOZ_P_GND_Post@D2P[1]   IOZ_P_GND_Post  passed   D2P   -3.000000 uA <=   -0.010000 uA   <=  3.000000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "IOZ_P_GND_Post"  on Site: 1         passed
+
+
+
+Site  TNum      Test                    TestSuite       p/f      Pin   LoLim             Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------
+1     1000053   IOZ_P_VDD_Post@CLKP[1]  IOZ_P_VDD_Post  passed   CLKP  -3.000000 uA <=   -0.002000 uA   <=  3.000000 uA  .         
+1     1000054   IOZ_P_VDD_Post@D0P[1]   IOZ_P_VDD_Post  passed   D0P   -3.000000 uA <=   -0.005000 uA   <=  3.000000 uA  .         
+1     1000055   IOZ_P_VDD_Post@D1P[1]   IOZ_P_VDD_Post  passed   D1P   -3.000000 uA <=   -0.007000 uA   <=  3.000000 uA  .         
+1     1000056   IOZ_P_VDD_Post@D2P[1]   IOZ_P_VDD_Post  passed   D2P   -3.000000 uA <=   -0.006000 uA   <=  3.000000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "IOZ_P_VDD_Post"  on Site: 1         passed
+
+
+
+Site  TNum      Test                    TestSuite       p/f      Pin   LoLim             Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------
+1     100000053 IOZ_N_VDD_Post@CLKN[1]  IOZ_N_VDD_Post  passed   CLKN  -3.000000 uA <=   -0.004000 uA   <=  3.000000 uA  .         
+1     100000054 IOZ_N_VDD_Post@D0N[1]   IOZ_N_VDD_Post  passed   D0N   -3.000000 uA <=   -0.006000 uA   <=  3.000000 uA  .         
+1     100000055 IOZ_N_VDD_Post@D1N[1]   IOZ_N_VDD_Post  passed   D1N   -3.000000 uA <=   -0.007000 uA   <=  3.000000 uA  .         
+1     100000056 IOZ_N_VDD_Post@D2N[1]   IOZ_N_VDD_Post  passed   D2N   -3.000000 uA <=   -0.005000 uA   <=  3.000000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "IOZ_N_VDD_Post"  on Site: 1         passed
+
+
+
+Site  TNum      Test                    TestSuite       p/f      Pin   LoLim             Measure       HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------
+1     10000053  IOZ_N_GND_Post@CLKN[1]  IOZ_N_GND_Post  passed   CLKN  -3.000000 uA <=   -0.008000 uA   <=  3.000000 uA  .         
+1     10000054  IOZ_N_GND_Post@D0N[1]   IOZ_N_GND_Post  passed   D0N   -3.000000 uA <=   -0.010000 uA   <=  3.000000 uA  .         
+1     10000055  IOZ_N_GND_Post@D1N[1]   IOZ_N_GND_Post  passed   D1N   -3.000000 uA <=   -0.012000 uA   <=  3.000000 uA  .         
+1     10000056  IOZ_N_GND_Post@D2N[1]   IOZ_N_GND_Post  passed   D2N   -3.000000 uA <=   -0.008000 uA   <=  3.000000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "IOZ_N_GND_Post"  on Site: 1         passed
+
+
+
+Site  TNum      Test                     TestSuite       p/f      Pin    LoLim            Measure      HiLim            TestDesc  
+----------------------------------------------------------------------------------------------------------------------------------
+1     100000016 DIODE_GND_Post@B0_R7[1]  DIODE_GND_Post  passed   B0_R7  -1.000000 V <=   -0.439610 V   <= -0.300000 V  .         
+1     100000017 DIODE_GND_Post@B1_R6[1]  DIODE_GND_Post  passed   B1_R6  -1.000000 V <=   -0.439224 V   <= -0.300000 V  .         
+1     100000018 DIODE_GND_Post@B2_R5[1]  DIODE_GND_Post  passed   B2_R5  -1.000000 V <=   -0.439553 V   <= -0.300000 V  .         
+1     100000019 DIODE_GND_Post@B3_R4[1]  DIODE_GND_Post  passed   B3_R4  -1.000000 V <=   -0.439642 V   <= -0.300000 V  .         
+1     100000020 DIODE_GND_Post@B4_R3[1]  DIODE_GND_Post  passed   B4_R3  -1.000000 V <=   -0.440224 V   <= -0.300000 V  .         
+1     100000021 DIODE_GND_Post@B5_R2[1]  DIODE_GND_Post  passed   B5_R2  -1.000000 V <=   -0.440236 V   <= -0.300000 V  .         
+1     100000022 DIODE_GND_Post@B6_R1[1]  DIODE_GND_Post  passed   B6_R1  -1.000000 V <=   -0.441488 V   <= -0.300000 V  .         
+1     100000023 DIODE_GND_Post@B7_R0[1]  DIODE_GND_Post  passed   B7_R0  -1.000000 V <=   -0.441930 V   <= -0.300000 V  .         
+1     100000024 DIODE_GND_Post@CLKN[1]   DIODE_GND_Post  passed   CLKN   -1.000000 V <=   -0.440065 V   <= -0.300000 V  .         
+1     100000025 DIODE_GND_Post@CLKP[1]   DIODE_GND_Post  passed   CLKP   -1.000000 V <=   -0.440280 V   <= -0.300000 V  .         
+1     100000026 DIODE_GND_Post@CPOL[1]   DIODE_GND_Post  passed   CPOL   -1.000000 V <=   -0.438142 V   <= -0.300000 V  .         
+1     100000027 DIODE_GND_Post@D0N[1]    DIODE_GND_Post  passed   D0N    -1.000000 V <=   -0.438871 V   <= -0.300000 V  .         
+1     100000028 DIODE_GND_Post@D0P[1]    DIODE_GND_Post  passed   D0P    -1.000000 V <=   -0.439711 V   <= -0.300000 V  .         
+1     100000029 DIODE_GND_Post@D1N[1]    DIODE_GND_Post  passed   D1N    -1.000000 V <=   -0.440350 V   <= -0.300000 V  .         
+1     100000030 DIODE_GND_Post@D1P[1]    DIODE_GND_Post  passed   D1P    -1.000000 V <=   -0.440602 V   <= -0.300000 V  .         
+1     100000031 DIODE_GND_Post@D2N[1]    DIODE_GND_Post  passed   D2N    -1.000000 V <=   -0.442272 V   <= -0.300000 V  .         
+1     100000032 DIODE_GND_Post@D2P[1]    DIODE_GND_Post  passed   D2P    -1.000000 V <=   -0.443397 V   <= -0.300000 V  .         
+1     100000033 DIODE_GND_Post@DE[1]     DIODE_GND_Post  passed   DE     -1.000000 V <=   -0.439749 V   <= -0.300000 V  .         
+1     100000034 DIODE_GND_Post@G0_G7[1]  DIODE_GND_Post  passed   G0_G7  -1.000000 V <=   -0.440976 V   <= -0.300000 V  .         
+1     100000035 DIODE_GND_Post@G1_G6[1]  DIODE_GND_Post  passed   G1_G6  -1.000000 V <=   -0.443251 V   <= -0.300000 V  .         
+1     100000036 DIODE_GND_Post@G2_G5[1]  DIODE_GND_Post  passed   G2_G5  -1.000000 V <=   -0.443719 V   <= -0.300000 V  .         
+1     100000037 DIODE_GND_Post@G3_G4[1]  DIODE_GND_Post  passed   G3_G4  -1.000000 V <=   -0.444162 V   <= -0.300000 V  .         
+1     100000038 DIODE_GND_Post@G4_G3[1]  DIODE_GND_Post  passed   G4_G3  -1.000000 V <=   -0.443194 V   <= -0.300000 V  .         
+1     100000039 DIODE_GND_Post@G5_G2[1]  DIODE_GND_Post  passed   G5_G2  -1.000000 V <=   -0.443662 V   <= -0.300000 V  .         
+1     100000040 DIODE_GND_Post@G6_G1[1]  DIODE_GND_Post  passed   G6_G1  -1.000000 V <=   -0.443536 V   <= -0.300000 V  .         
+1     100000041 DIODE_GND_Post@G7_G0[1]  DIODE_GND_Post  passed   G7_G0  -1.000000 V <=   -0.443251 V   <= -0.300000 V  .         
+1     100000042 DIODE_GND_Post@HS[1]     DIODE_GND_Post  passed   HS     -1.000000 V <=   -0.438732 V   <= -0.300000 V  .         
+1     100000043 DIODE_GND_Post@LS0[1]    DIODE_GND_Post  passed   LS0    -1.000000 V <=   -0.442695 V   <= -0.300000 V  .         
+1     100000044 DIODE_GND_Post@LS1[1]    DIODE_GND_Post  passed   LS1    -1.000000 V <=   -0.444174 V   <= -0.300000 V  .         
+1     100000045 DIODE_GND_Post@PCLK[1]   DIODE_GND_Post  passed   PCLK   -1.000000 V <=   -0.439496 V   <= -0.300000 V  .         
+1     100000046 DIODE_GND_Post@R0_B7[1]  DIODE_GND_Post  passed   R0_B7  -1.000000 V <=   -0.441910 V   <= -0.300000 V  .         
+1     100000047 DIODE_GND_Post@R1_B6[1]  DIODE_GND_Post  passed   R1_B6  -1.000000 V <=   -0.443915 V   <= -0.300000 V  .         
+1     100000048 DIODE_GND_Post@R2_B5[1]  DIODE_GND_Post  passed   R2_B5  -1.000000 V <=   -0.443561 V   <= -0.300000 V  .         
+1     100000049 DIODE_GND_Post@R3_B4[1]  DIODE_GND_Post  passed   R3_B4  -1.000000 V <=   -0.445299 V   <= -0.300000 V  .         
+1     100000050 DIODE_GND_Post@R4_B3[1]  DIODE_GND_Post  passed   R4_B3  -1.000000 V <=   -0.443219 V   <= -0.300000 V  .         
+1     100000051 DIODE_GND_Post@R5_B2[1]  DIODE_GND_Post  passed   R5_B2  -1.000000 V <=   -0.440818 V   <= -0.300000 V  .         
+1     100000052 DIODE_GND_Post@R6_B1[1]  DIODE_GND_Post  passed   R6_B1  -1.000000 V <=   -0.443365 V   <= -0.300000 V  .         
+1     100000053 DIODE_GND_Post@R7_B0[1]  DIODE_GND_Post  passed   R7_B0  -1.000000 V <=   -0.440191 V   <= -0.300000 V  .         
+1     100000054 DIODE_GND_Post@SWAP[1]   DIODE_GND_Post  passed   SWAP   -1.000000 V <=   -0.439236 V   <= -0.300000 V  .         
+1     100000055 DIODE_GND_Post@TXEN[1]   DIODE_GND_Post  passed   TXEN   -1.000000 V <=   -0.438371 V   <= -0.300000 V  .         
+1     100000056 DIODE_GND_Post@VS[1]     DIODE_GND_Post  passed   VS     -1.000000 V <=   -0.439395 V   <= -0.300000 V  .         
+----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "DIODE_GND_Post"  on Site: 1         passed
+
+
+
+Site  TNum      Test                           TestSuite             p/f      Pin    LoLim                Measure        HiLim             TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+1     4017      PIN2PIN_ODD_ROW_post@B0_R7[1]  PIN2PIN_ODD_ROW_post  passed   B0_R7  -1600.000000 nA <=   -66.000000 nA   <= 75.000000 nA  .         
+1     4018      PIN2PIN_ODD_ROW_post@B1_R6[1]  PIN2PIN_ODD_ROW_post  passed   B1_R6  -1600.000000 nA <=   -65.000000 nA   <= 75.000000 nA  .         
+1     4019      PIN2PIN_ODD_ROW_post@B2_R5[1]  PIN2PIN_ODD_ROW_post  passed   B2_R5  -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+1     4020      PIN2PIN_ODD_ROW_post@B3_R4[1]  PIN2PIN_ODD_ROW_post  passed   B3_R4  -1600.000000 nA <=   -63.000000 nA   <= 75.000000 nA  .         
+1     4021      PIN2PIN_ODD_ROW_post@B4_R3[1]  PIN2PIN_ODD_ROW_post  passed   B4_R3  -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+1     4022      PIN2PIN_ODD_ROW_post@B5_R2[1]  PIN2PIN_ODD_ROW_post  passed   B5_R2  -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+1     4023      PIN2PIN_ODD_ROW_post@B6_R1[1]  PIN2PIN_ODD_ROW_post  passed   B6_R1  -1600.000000 nA <=   -63.000000 nA   <= 75.000000 nA  .         
+1     4024      PIN2PIN_ODD_ROW_post@B7_R0[1]  PIN2PIN_ODD_ROW_post  passed   B7_R0  -1600.000000 nA <=   -62.000000 nA   <= 75.000000 nA  .         
+1     4025      PIN2PIN_ODD_ROW_post@CPOL[1]   PIN2PIN_ODD_ROW_post  passed   CPOL   -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+1     4026      PIN2PIN_ODD_ROW_post@DE[1]     PIN2PIN_ODD_ROW_post  passed   DE     -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+1     4027      PIN2PIN_ODD_ROW_post@G0_G7[1]  PIN2PIN_ODD_ROW_post  passed   G0_G7  -1600.000000 nA <=   -62.000000 nA   <= 75.000000 nA  .         
+1     4028      PIN2PIN_ODD_ROW_post@G1_G6[1]  PIN2PIN_ODD_ROW_post  passed   G1_G6  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     4029      PIN2PIN_ODD_ROW_post@G2_G5[1]  PIN2PIN_ODD_ROW_post  passed   G2_G5  -1600.000000 nA <=   -59.000000 nA   <= 75.000000 nA  .         
+1     4030      PIN2PIN_ODD_ROW_post@G3_G4[1]  PIN2PIN_ODD_ROW_post  passed   G3_G4  -1600.000000 nA <=   -58.000000 nA   <= 75.000000 nA  .         
+1     4031      PIN2PIN_ODD_ROW_post@G4_G3[1]  PIN2PIN_ODD_ROW_post  passed   G4_G3  -1600.000000 nA <=   -58.000000 nA   <= 75.000000 nA  .         
+1     4032      PIN2PIN_ODD_ROW_post@G5_G2[1]  PIN2PIN_ODD_ROW_post  passed   G5_G2  -1600.000000 nA <=   -59.000000 nA   <= 75.000000 nA  .         
+1     4033      PIN2PIN_ODD_ROW_post@G6_G1[1]  PIN2PIN_ODD_ROW_post  passed   G6_G1  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     4034      PIN2PIN_ODD_ROW_post@G7_G0[1]  PIN2PIN_ODD_ROW_post  passed   G7_G0  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     4035      PIN2PIN_ODD_ROW_post@HS[1]     PIN2PIN_ODD_ROW_post  passed   HS     -1600.000000 nA <=   -66.000000 nA   <= 75.000000 nA  .         
+1     4036      PIN2PIN_ODD_ROW_post@LS0[1]    PIN2PIN_ODD_ROW_post  passed   LS0    -1600.000000 nA <=   -61.000000 nA   <= 75.000000 nA  .         
+1     4037      PIN2PIN_ODD_ROW_post@LS1[1]    PIN2PIN_ODD_ROW_post  passed   LS1    -1600.000000 nA <=   -60.000000 nA   <= 75.000000 nA  .         
+1     4038      PIN2PIN_ODD_ROW_post@PCLK[1]   PIN2PIN_ODD_ROW_post  passed   PCLK   -1600.000000 nA <=   -65.000000 nA   <= 75.000000 nA  .         
+1     4039      PIN2PIN_ODD_ROW_post@R0_B7[1]  PIN2PIN_ODD_ROW_post  passed   R0_B7  -1600.000000 nA <=   -60.000000 nA   <= 75.000000 nA  .         
+1     4040      PIN2PIN_ODD_ROW_post@R1_B6[1]  PIN2PIN_ODD_ROW_post  passed   R1_B6  -1600.000000 nA <=   -56.000000 nA   <= 75.000000 nA  .         
+1     4041      PIN2PIN_ODD_ROW_post@R2_B5[1]  PIN2PIN_ODD_ROW_post  passed   R2_B5  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     4042      PIN2PIN_ODD_ROW_post@R3_B4[1]  PIN2PIN_ODD_ROW_post  passed   R3_B4  -1600.000000 nA <=   -57.000000 nA   <= 75.000000 nA  .         
+1     4043      PIN2PIN_ODD_ROW_post@R4_B3[1]  PIN2PIN_ODD_ROW_post  passed   R4_B3  -1600.000000 nA <=   -58.000000 nA   <= 75.000000 nA  .         
+1     4044      PIN2PIN_ODD_ROW_post@R5_B2[1]  PIN2PIN_ODD_ROW_post  passed   R5_B2  -1600.000000 nA <=   -59.000000 nA   <= 75.000000 nA  .         
+1     4045      PIN2PIN_ODD_ROW_post@R6_B1[1]  PIN2PIN_ODD_ROW_post  passed   R6_B1  -1600.000000 nA <=   -58.000000 nA   <= 75.000000 nA  .         
+1     4046      PIN2PIN_ODD_ROW_post@R7_B0[1]  PIN2PIN_ODD_ROW_post  passed   R7_B0  -1600.000000 nA <=   -59.000000 nA   <= 75.000000 nA  .         
+1     4047      PIN2PIN_ODD_ROW_post@SWAP[1]   PIN2PIN_ODD_ROW_post  passed   SWAP   -1600.000000 nA <=   -62.000000 nA   <= 75.000000 nA  .         
+1     4048      PIN2PIN_ODD_ROW_post@TXEN[1]   PIN2PIN_ODD_ROW_post  passed   TXEN   -1600.000000 nA <=   -62.000000 nA   <= 75.000000 nA  .         
+1     4049      PIN2PIN_ODD_ROW_post@VS[1]     PIN2PIN_ODD_ROW_post  passed   VS     -1600.000000 nA <=   -64.000000 nA   <= 75.000000 nA  .         
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+TestSuite "PIN2PIN_ODD_ROW_post"  on Site: 1         passed
+
+
+
+Site  TNum      Test                         TestSuite             p/f      Pin  LoLim  Measure       HiLim              TestDesc  
+-----------------------------------------------------------------------------------------------------------------------------------
+1     1019      SupplyShort_VDD_Post@VDD[1]  SupplyShort_VDD_Post  passed   VDD  .       0.155813 uA   <= 100.000000 uA  .         
+-----------------------------------------------------------------------------------------------------------------------------------
+TestSuite "SupplyShort_VDD_Post"  on Site: 1         passed
+
+
+
+Site  TNum      Test  TestSuite   p/f      Pin  LoLim  Measure  HiLim  TestDesc  
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+TestSuite "DISCONNECT"  on Site: 1         passed
+
+Site 1 has PASSED. Binned to bin 1(1)
+Site 1 has FAILED. Binned to bin 36(7)
+
+Testflow ended after 4.100 seconds on 11/05/2024 at 01:21:24 AM
+Level ended after 4.132 seconds on 11/05/2024 at 01:21:24 AM
+Test program terminated after 4.132 seconds on 11/05/2024 at 01:21:24 AM
+######## Ended Testprogram Testflow ############################################
+
